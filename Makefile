@@ -1,8 +1,11 @@
 NAME = megaphone
-# SRC = megaphone.cpp
-SRC = megaphonen.cpp
+
+SRC = megaphone.cpp
+
 OBJ = ${SRC:.cpp=.o}
+
 CFLAGS = -Wall -Wextra -Werror
+
 CC = c++
 
 all: ${NAME}
